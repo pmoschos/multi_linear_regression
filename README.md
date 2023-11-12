@@ -34,3 +34,34 @@ The primary purpose of this script is to provide a practical application of mult
 To install the required libraries, run:
 ```bash
 pip install pandas numpy matplotlib seaborn sklearn joblib
+
+## 🖥 Usage
+- **Data Loading and Exploration**: Load the housing data using Pandas and explore it using descriptive statistics and pairplots.
+- **Preprocessing**: Define features (X) and target (y), and split into training and test sets.
+- **Model Training**: Train a linear regression model using Scikit-Learn's `LinearRegression`.
+- **Model Evaluation**: Evaluate performance using MAE, MSE, and R2-score, and visualize results.
+- **Model Persistence**: Save the trained model for future predictions.
+- **Making Predictions**: Load the saved model to predict on new data.
+
+<a name="example-prediction"></a>
+## 🧮 Example Prediction
+Provide input data in the format below to predict housing prices:
+- 'Avg. Area Income': [income]
+- 'Avg. Area House Age': [house_age]
+- 'Avg. Area Number of Rooms': [num_rooms]
+- 'Avg. Area Number of Bedrooms': [num_bedrooms]
+- 'Area Population': [population]
+
+<a name="contributing"></a>
+## 👥 Contributing
+Contributions to enhance the script are welcome. Please fork the repository and submit a pull request with your improvements.
+
+<a name="license"></a>
+## 📜 License
+This project is open-sourced under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+
+<a name="note"></a>
+## 📝 Note
+- The script assumes that the data file `USA_Housing.csv` is present in the working directory.
+- Adjust `test_size` and `random_state` in the train-test split according to your requirements.
+- The visualization segment (pairplot) is commented out and can be enabled for a more in-depth analysis.
