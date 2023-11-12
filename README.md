@@ -66,3 +66,7 @@ This project is open-sourced under the MIT License. See the [LICENSE](LICENSE.md
 - The script assumes that the data file `USA_Housing.csv` is present in the working directory.
 - Adjust `test_size` and `random_state` in the train-test split according to your requirements.
 - The visualization segment (pairplot) is commented out and can be enabled for a more in-depth analysis.
+
+## 📊 Graphical representation of predictions vs actual values
+![predictions_vs_actuals](https://github.com/pmoschos/multi_linear_regression/assets/133533759/31bcc475-c349-44dd-8447-5abfeabd33d7)
+
