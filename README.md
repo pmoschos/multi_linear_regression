@@ -34,6 +34,7 @@ The primary purpose of this script is to provide a practical application of mult
 To install the required libraries, run:
 ```bash
 pip install pandas numpy matplotlib seaborn sklearn joblib
+```
 
 ## 🖥 Usage
 - **Data Loading and Exploration**: Load the housing data using Pandas and explore it using descriptive statistics and pairplots.
